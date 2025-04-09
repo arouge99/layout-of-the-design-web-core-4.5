@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+    <title>Layout of the design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+    <!--linke seite vom bild-->
+    <div class="left-side">
+        <img class="logo" src="images/logo.svg" alt="Logo">
+        <img src="images/bg.jpg">
+    </div>
+    <!--rechte seite vom bild-->
+    <div class="right-side">
+    <h3> Get iintoo it today</h3>
+    <h5>There is no charge or obligation upon registration.</h5>
+    <div class="sns">
+    <button class="facebook">
+        <img src="images/facebook.svg" alt="Facebook icon">
+        Register with Facebook
+    </button>
+    <button class="linkedin">
+        <img src="images/linkedin.svg" alt="LinkedIn icon">
+        Register with LinkedIn
+    </button>
+    </div>
+    <div class="divider"><span>OR</span></div>
+    <form>
+        <div class="input-row">
+        <div class="floating-input">
+            <label for="email">Email</label>
+            <input type="email" id="email" value="gus.goodwin@gmail.com">
+        </div>    
+        <div class="floating-input">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone">
+        </div>
+        </div>
+        <div class="investor-options">
+            <label class="investor-option">
+              <div class="radio-label">
+                <input type="radio" name="investorType" checked>
+                <span>Individual</span>
+                <span class="info-icon">i</span>
+              </div>
+              <div class="description-box">
+                I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common.
+              </div>
+            </label>
+          
+            <label class="investor-option">
+              <div class="radio-label">
+                <input type="radio" name="investorType">
+                <span>Business</span>
+                <span class="info-icon">i</span>
+              </div>
+              <div class="description-box">
+                I am investing on behalf of a company, partnership, or other business entity.
+              </div>
+            </label>
+          
+            <label class="investor-option">
+              <div class="radio-label">
+                <input type="radio" name="investorType">
+                <span>IRA</span>
+                <span class="info-icon">i</span>
+              </div>
+              <div class="description-box">
+                I am investing with funds from an Individual Retirement Account (IRA).
+              </div>
+            </label>
+          
+            <label class="investor-option">
+              <div class="radio-label">
+                <input type="radio" name="investorType">
+                <span>Trust</span>
+                <span class="info-icon">i</span>
+              </div>
+              <div class="description-box">
+                I am investing on behalf of a trust fund.
+              </div>
+            </label>
+          </div>
+                   
+    </form>
+    <label class="checkbox-label">
+        <input type="checkbox">
+        I agree to the terms and receiving notifications from iintoo 
+        <a href="#">View full terms</a>
+    </label>
+    <br>
+    <button class="submit">Create Account</button>
+    </div>
+    </div>
+</body>
+</html>
